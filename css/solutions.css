@@ -150,3 +150,35 @@ body {
 }
 /* #endregion workout-plan */
 
+/* #region exercise */
+
+
+.exercise-item {
+	background: #f8f9fa;
+	margin: 8px 0;
+	padding: 15px;
+	border-radius: 8px;
+	border-left: 4px solid #bdc3c7;
+}
+
+.exercise-name {
+	font-weight: bold;
+	color: #2c3e50;
+	margin-bottom: 5px;
+}
+
+.exercise-reps {
+	color: #666;
+	font-size: 0.9rem;
+}
+
+.exercise-item:first-child, .exercise-item:last-child {
+	border-left: 4px solid #2ecc71;
+    background-color: #f0fff4;
+}
+
+.exercise-item:nth-child(2)::before, .exercise-item:last-child::before {
+    content: "⚡";
+}
+
+/* #endregion exercise */
