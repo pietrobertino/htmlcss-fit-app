@@ -209,6 +209,17 @@ body {
 	position: relative;
 }
 
+.progress-fill::after {
+    content: "65%";
+    color: white;
+    position: absolute;
+    right: 5%;
+    top: -50%;
+    font-size: small;
+    font-weight: 600;
+
+}
+
 .progress-text {
 	text-align: center;
 	font-weight: bold;
