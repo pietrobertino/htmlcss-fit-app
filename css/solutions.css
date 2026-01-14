@@ -243,6 +243,26 @@ body {
 	font-style: italic;
 }
 
+.quote-box::after  {
+    content: "\0022";
+    opacity: 30%;
+    position: absolute;
+    font-size: 50px;
+    top: 0%;
+    left: 2%;
+}
+
+.quote-box::before {
+    content: "\0022";
+    opacity: 30%;
+    position: absolute;
+    font-size: 50px;
+    bottom: 0%;
+    right: 2%;
+}
+
+
+
 /* #endregion quote */
 
 /* #region goal */
