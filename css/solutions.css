@@ -67,6 +67,7 @@ body {
 
 .stats-container .stats-grid:first-child::before {
     content: "🔥";
+	font-size: 30px;
 }
 
 .stats-container .stats-grid:last-child {
@@ -78,9 +79,10 @@ body {
 
 .stats-grid:hover {
     position: relative;
-	box-shadow: 0 7px 15px rgba(0, 0, 0, 0.1);
-    top:-5px;
-    transition: 1s;
+	box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
+    top:-5px ;
+    transition: 0.5s;
+
 
 }
 /* #endregion stats */
@@ -247,7 +249,7 @@ body {
 }
 
 .quote-box::after  {
-    content: "\0022";
+    content: '"';
     opacity: 30%;
     position: absolute;
     font-size: 50px;
@@ -295,6 +297,8 @@ body {
 	border: 1px solid #ddd;
 	border-radius: 6px;
 	font-size: 1rem;
+	transition-duration: 0.5s;
+	outline: none;
 }
 
 .save-btn {
@@ -314,16 +318,14 @@ body {
 .goal-input-group select:focus {
 	border: 2px solid blue;
 	box-shadow: 0 2px 10px blue;
-    transition-duration: 0.5s;
-    outline: none;
 }
 
 .save-btn:hover {
     position: relative;
     top: -2px;
-	box-shadow: 0 2px 10px blue;
-    background-color: #66ea6f;
-    transition: 0.2s;
+	box-shadow: 2px 2px 5px blue;
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    transition: 0.1s;
 }
 /* #endregion goal */
 
