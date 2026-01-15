@@ -182,7 +182,7 @@ body {
     background-color: #f0fff4;
 }
 
-.exercise-item:nth-child(2)::before, .exercise-item:last-child::before {
+.exercise-item:nth-child(even)::before {
     content: "⚡";
 }
 
